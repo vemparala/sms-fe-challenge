@@ -4,7 +4,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Concurrent server for JSON + App
 
-Run `ng run start:proxy:mock:server` for a JSON + APP server. Navigate to `http://localhost:4200/`.
+Run `npm run start:proxy:mock:server` for a JSON + APP server. Navigate to `http://localhost:4200/`.
 
 ## Only Development server
 
@@ -12,7 +12,7 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 
 ## Only JSON server
 
-Run `ng run mock:server` for a json server. Navigate to `http://localhost:3000/`.
+Run `npm run mock:server` for a json server. Navigate to `http://localhost:3000/`.
 
 ## Code scaffolding
 
