@@ -1,0 +1,6 @@
+{
+ "/grid": {
+ "arget": "http://localhost:3000",
+ "secure": false
+ }
+}

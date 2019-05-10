@@ -1,0 +1,24 @@
+<div id="data-grid-demo">
+    <dx-data-grid
+        id="gridContainer"
+        [dataSource]="dataSource"
+        [showBorders]="true"
+        [remoteOperations]="true">
+        <dxo-filter-row [visible]="true"></dxo-filter-row>
+
+        <dxo-paging [pageSize]="10"></dxo-paging>
+
+
+        <dxi-column dataField="id" caption="ID" dataType="number" [width]="70"></dxi-column>
+        <dxi-column dataField="city" dataType="string"></dxi-column>
+        <dxi-column dataField="start_date" dataType="date"></dxi-column>
+        <dxi-column dataField="end_date" dataType="date"></dxi-column>
+        <dxi-column dataField="price" dataType="number"></dxi-column>
+        <dxi-column dataField="status" dataType="string"></dxi-column>
+        <dxi-column dataField="color" cellTemplate="cellTemplate">
+        <div *dxTemplate="let cell of 'cellTemplate'">
+            <dx-color-box [(value)]="cell.value" [readOnly]="true"></dx-color-box>
+        </div>
+        </dxi-column>
+    </dx-data-grid>
+</div>
