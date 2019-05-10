@@ -2,7 +2,7 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.0.4.
 
-## Concurrent serve for JSON + App
+## Concurrent server for JSON + App
 
 Run `ng run start:proxy:mock:server` for a JSON + APP server. Navigate to `http://localhost:4200/`.
 
