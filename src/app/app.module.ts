@@ -10,6 +10,8 @@ import { AppComponent } from './app.component';
 import { PasswordChangeComponent } from './password-change/password-change.component';
 import { GridComponent } from './grid/grid.component';
 import {HttpClientModule} from "@angular/common/http";
+import {ReactiveFormsModule} from "@angular/forms";
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { CommonService } from "./service/common.service"
 
 @NgModule({
@@ -30,7 +32,9 @@ import { CommonService } from "./service/common.service"
     MatIconModule,
     HttpClientModule,
     DxDataGridModule,
-    DxColorBoxModule 
+    DxColorBoxModule,
+    ReactiveFormsModule,
+    BrowserAnimationsModule
   ],
     providers: [CommonService],
   bootstrap: [AppComponent]
