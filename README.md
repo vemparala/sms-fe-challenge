@@ -2,17 +2,21 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.0.4.
 
-## Concurrent serve for JSON + App
+## Install command
 
-Run `ng run start:proxy:mock:server` for a JSON + APP server. Navigate to `http://localhost:4200/`.
+Run `npm install` to install dependencies.
 
-## Only Development server
+## Concurrent server for JSON + App
+
+Run `npm run start:proxy:mock:server` for a JSON + APP server. Navigate to `http://localhost:4200/`.
+
+## If only Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Only JSON server
+## If only JSON server
 
-Run `ng run mock:server` for a json server. Navigate to `http://localhost:3000/`.
+Run `npm run mock:server` for a json server. Navigate to `http://localhost:3000/`.
 
 ## Code scaffolding
 
